@@ -2,10 +2,17 @@ package com.indra.principal;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Eliseo
+ *
+ */
 public class CajeroAutomatico {
 
 	public static void main(String[] args) {
-		
+		/**
+		 * Programa principal cajeron automatico
+		 */
 		ProcesoCajero procesoCajero = new ProcesoCajero();
 		Scanner in = new Scanner(System.in);
 		//Iniciamos el numero de intentos
